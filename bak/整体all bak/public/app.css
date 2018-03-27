@@ -1,0 +1,107 @@
+ .textbox{ width: 300px; height: 300px; background-color: #dadada; }
+  *{margin:0;padding:0;list-style:none}
+html{height:100%}
+body{width:750px;height:100%;position:relative;font-family:"微软雅黑"}
+.wrap{width:750px;height:100%;position:relative;overflow:hidden}
+.pos_abs{position:absolute;display:block;z-index:2}
+.hide{display:none}
+.page{position:absolute;left:0;top:0;width:750px;height:100%;overflow:visible;z-index:1;overflow:hidden; background-color: #ac854b}
+.heigth100{/* height:100% */}
+.loadingtext{width:100%;text-align:center;color:#FFF;font-family:'Microsoft Yahei';z-index:13;font-size:28px;position:absolute;top:35%}
+.p1_gy{background-size:100%;width:750px;height:100%}
+.loading{background:rgba(0,0,0,.8)!important;height:100%!important;width:100%!important;min-height:500px!important;position:absolute!important;top:0!important;z-index:50000!important}
+.eye{cursor:pointer;text-align:center;-webkit-animation:bounce1 250ms cubic-bezier(.165,.84,.44,1) infinite alternate;animation:bounce1 250ms cubic-bezier(.165,.84,.44,1) infinite alternate;z-index:100000000000;position:absolute;   top: 28%;
+    left: 45%;}
+.eye img{display:inline-block;width:115px;height:92px}
+
+
+@keyframes bounce1{0%{-webkit-transform:translateY(0);transform:translateY(0)}
+100%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}
+}
+@-webkit-keyframes bounce1{0%{-webkit-transform:translateY(0);transform:translateY(0)}
+100%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}
+}
+.p_load_bj{top:0;left:0;z-index:-1}
+.pl_bj_d{width:100%;height:100%;background-color:rgba(0,0,0,.8);z-index:0;top:0;left:0}
+.btnup{bottom:50px;width:100%;text-align:center;z-index:3}
+.fadeInUp1{-webkit-animation-name:fadeInUp1;animation-name:fadeInUp1;-webkit-animation-duration:1.5s;animation-duration:1.5s}
+@keyframes fadeInUp1{100%{opacity:1;-webkit-transform:translate3d(0,40%,0);-ms-transform:translate3d(0,40%,0);transform:translate3d(0,40%,0)}
+0%{opacity:0;-webkit-transform:none;-ms-transform:none;transform:none}
+}
+@-webkit-keyframes fadeInUp1{100%{opacity:1;-webkit-transform:translate3d(0,40%,0);-ms-transform:translate3d(0,40%,0);transform:translate3d(0,40%,0)}
+0%{opacity:0;-webkit-transform:none;-ms-transform:none;transform:none}
+}
+.input_txt{width:264px;height:74px;background:0 0;border:none;text-align:center;font-size:30px}
+.textname{    top: 630px;
+    left: 145px;}
+.textphone{    top: 750px;
+    left: 145px;}
+
+.textfroms{background-color: #e6e6e6;
+    border: 2px solid #d3dc20;
+    border: none;
+    width: 466px;
+    height: 87px;
+    border-radius: 11px;
+    font-size: 34px;
+    color: #333;
+    outline-style: none;
+    font-family: '微软雅黑';
+    text-align: center;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#333}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#333}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#333}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#333}
+
+.p0{top:0;left:0}
+.p12{    top: 65px;
+    left: 60px;}
+.p13{    top: 240px;
+    left: 60px;}
+.p14{    top: 503px;
+    left: 461px;}
+
+
+.p22{    top: 87px;
+    left: 12px;}
+.p23{    top: 245px;
+    left: 95px;}
+.p24_parent{      top: 825px;
+    left: 205px; width: 329px; height: 81px;}
+    
+
+.p51{top:90px;left:40px}
+.p52{    top: 85px;
+    left: 40px;}
+.p53{    top: 545px;
+    left: 60px;}
+.p54{top:435px;left:45px}
+
+.p4_rst{    top: 442px;
+    left: 148px;}
+.p4_btn_parent{   top: 855px;
+    left: 203px; width: 340px; height: 81px;}
+
+.p3_zs{top: 635px;
+    right: 0px;}
+.close{    top: 85px;
+    left: 525px;}
+.tit1{    top: 215px;
+    left: 50px;
+    z-index: 9;}
+
+.topbox{top: 0px;left: 0px; width: 750px; height: 101%; background-color:rgba(33, 22, 0, 0.88); z-index: 9999 }
+.submit_btn{    top: 880px;
+    left: 140px;}
+.tiq1{top: 555px;left: 0px;}
+.tiq2{top: 679px;left: 0px;}
+.tiq3{top: 820px;left: 0px;}
+.ti_question{width: 750px; height: 90px; text-align: center; z-index: 999}
+.isright{ top:10px; left:590px; }
+.titu1{top: 285px;left: 255px;}
+.timbox{top:195px;left:0px; width: 750px; height: 100px; text-align: center;}
+.page2{ background-color: #e3d6c3 }
+.close_bm{     top: 72px;
+    left: 536px; }
+.bj_bm{    top: 210px;
+    left: 50px;}

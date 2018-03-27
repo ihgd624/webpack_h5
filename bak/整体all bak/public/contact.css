@@ -1,0 +1,5 @@
+*{margin:0;padding:0;list-style:none}
+html{height:100%}
+body{width:750px;height:100%;position:relative;font-family:"微软雅黑"; background: url('../images/bj.png') 0 0 no-repeat;}
+
+ .textbox{ width: 350px; height: 350px; background-color: #5e2101; color: #fff; }
