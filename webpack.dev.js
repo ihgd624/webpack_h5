@@ -11,6 +11,7 @@ module.exports = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
+    //host:"127.0.0.2",
     inline: true,
     port: 9000,
     open: true,
